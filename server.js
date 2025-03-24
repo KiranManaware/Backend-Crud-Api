@@ -2,7 +2,7 @@ const express=require("express");
 const connectDB = require("./config/db_config");
 const cors=require('cors')
 const app=express();
-// 🔹 Use CORS Middleware
+//  Use CORS Middleware
 app.use(cors());
 require("dotenv").config();
 
